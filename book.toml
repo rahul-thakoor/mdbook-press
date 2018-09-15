@@ -1,0 +1,8 @@
+[book]
+authors = ["rahul-thakoor"]
+multilingual = false
+src = "src"
+title = "Mdbooker"
+
+[build]
+build-dir = "book"
