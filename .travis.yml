@@ -14,12 +14,14 @@ before_script:
   - cargo install-update -a
 script:
   - mdbook build
-branches:
-  only:
-  - default-theme
+
 deploy:
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
   keep-history: true
   local-dir: book
+  on:
+    branches:
+      only:
+      - default-theme
