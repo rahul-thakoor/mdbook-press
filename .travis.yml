@@ -22,6 +22,4 @@ deploy:
   keep-history: true
   local-dir: book
   on:
-    branches:
-      only:
-      - default-theme
+   branch: default-theme
