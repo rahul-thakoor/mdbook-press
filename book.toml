@@ -2,7 +2,7 @@
 authors = ["rahul-thakoor"]
 multilingual = false
 src = "src"
-title = "Mdbooker"
+title = "mdbook-press"
 
 [build]
 build-dir = "book"
