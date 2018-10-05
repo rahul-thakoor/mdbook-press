@@ -21,4 +21,4 @@ deploy:
   keep-history: true
   local-dir: book
   on:
-    branch: default-theme
+    branch: master
